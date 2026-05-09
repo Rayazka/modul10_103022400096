@@ -1,5 +1,6 @@
 ﻿namespace Modul10_103022400096.api
 {
+    /// Kelas Game merepresentasikan sebuah game dengan berbagai atribut seperti id, nama, developer, tahun rilis, genre, rating, platform, mode, status online, dan harga.
     public class Game
     {
         public int id { get; set; }
@@ -13,6 +14,7 @@
         public string isOnline { get; set; }
         public string Harga { get; set; }
 
+        // Konstruktor default untuk kelas Game
         public Game() { }
 
        
